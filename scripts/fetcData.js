@@ -2,7 +2,7 @@ let template = document.getElementById('template-card').content;
 let fragment = document.createDocumentFragment();
 let boton1 = document.querySelector('#itemb');
 let itm = document.getElementById('main');
-let url=('https://basedatosjson.herokuapp.com/articulos')
+let url=('https://tense-plum-sock.cyclic.app/articulos')
 //data impri
 let idd=0
 export const fetchData1 = async (idd) => {
